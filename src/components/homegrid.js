@@ -27,8 +27,8 @@ export default function Homegrid() {
                 </figcaption>
             </figure>
             <figure class="grid__item">
-                <img class="grid__item-img" src="img/17.jpg" alt="Some image" />
-                <img class="grid__item-img grid__item-img--large" src="img/17_large.jpg" />
+                <img class="grid__item-img" src="img/14.jpg" alt="Some image" />
+                <img class="grid__item-img grid__item-img--large" src="img/14_large.jpg" />
                 <figcaption class="grid__item-caption">
                     <h2 class="grid__item-title">救済の計画</h2>
                     <p class="grid__item-text">
@@ -41,7 +41,7 @@ export default function Homegrid() {
                 <img class="grid__item-img" src="img/1.jpg" alt="Some image" />
                 <img class="grid__item-img grid__item-img--large" src="img/1_large.jpg" />
                 <figcaption class="grid__item-caption">
-                    <h2 class="grid__item-title">聖書って何?</h2>
+                    <h2 class="grid__item-title">聖書って何？</h2>
                     <p class="grid__item-text">
                     What is the Bible?
                     </p>
@@ -62,9 +62,9 @@ export default function Homegrid() {
                 <img class="grid__item-img" src="img/3.jpg" alt="Some image" />
                 <img class="grid__item-img grid__item-img--large" src="img/3_large.jpg" />
                 <figcaption class="grid__item-caption">
-                    <h2 class="grid__item-title">どうやって祈るの?</h2>
+                    <h2 class="grid__item-title">どうやって祈るの？</h2>
                     <p class="grid__item-text">
-                        What is prayer?
+                        How to pray?
                     </p>
                 </figcaption>
             </figure>

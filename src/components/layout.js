@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../styles/base.css"
 
 export default function Layout({ children }) {
@@ -8,17 +9,18 @@ export default function Layout({ children }) {
         <div class="frame__title-wrap">
           <h1 class="frame__title">JesusLoves.Jp</h1>
           <div class="frame__links">
-            <a href="https://tympanus.net/Development/AnimatedImageColumns/">About Us</a>
-
+            <Link to="/1">創造主</Link>
+            <Link to="/2">敵</Link>
+            <Link to="/3">救済</Link>
+            <Link to="/4">聖書</Link>
+            <Link to="/5">キリスト</Link>
+            <Link to="/6">祈り</Link>
           </div>
         </div>
         <div class="frame__demos">
-          <a href="/" class="frame__demo frame__demo--current">創造主</a>
-          <a href="index2.html" class="frame__demo">敵</a>
-          <a href="index3.html" class="frame__demo">救済</a>
-          <a href="index4.html" class="frame__demo">聖書</a>
-          <a href="index5.html" class="frame__demo">キリスト</a>
-          <a href="index6.html" class="frame__demo">祈り</a>
+          <a href="/" class="frame__demo frame__demo--current">About</a>
+          <a href="index2.html" class="frame__demo">Privacy</a>
+
         </div>
       </div>
       <div class="deco">

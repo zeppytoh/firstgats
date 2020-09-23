@@ -316,33 +316,49 @@ a:hover, a:focus {
 	}
 	.grid {
 		display: grid;
-		grid-template-columns: 63% 37%;
+		grid-template-columns: 31% 36% 33%;
 		width: 100%;
 		max-width: 1200px;
 		margin: 10vh auto 0;
 		padding: 0;
 	}
 	.grid__item {
-		padding: 0 4.5vw;
+		padding: 0 0;
 	}
 
 	.grid__item-title {
 		font-size: 2.25rem;
 		font-weight: 400;
-		margin: -5.75rem 0 1.25rem 0;
+		margin: -5.75rem 0 1.25rem 1rem;
 		line-height: 1;
 		color: var(--color-title);
 	}
 	
 	.grid__item-text {
 		color: var(--color-grid-text);
-		font-size: 0.95rem;
+		font-size: 1.25rem;
+		margin-left: 1rem;
 	}
 	.grid__item:first-child {
-		padding-top: 35%;
+		padding-top: 10%;
+		grid-column-start: 1;
+		grid-column-end:   3;
 	}
 	.grid__item:nth-child(3) {
-		padding-top: 40%;
+		padding-top: 0;
+		margin: 0 auto;
+		grid-column-start: 1;
+		grid-column-end:   4;
+	}
+	.grid__item:nth-child(4) {
+		padding: 0 2vw;
+	}
+	.grid__item:nth-child(5) {
+		padding: 0 2vw;
+		padding-top: 30%;
+	}
+	.grid__item:nth-child(6) {
+		padding: 2vw;
 	}
 
 }
