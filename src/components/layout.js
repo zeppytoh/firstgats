@@ -3,7 +3,7 @@ import "../styles/base.css"
 
 export default function Layout({ children }) {
   return (
-    <main class="demo-3">
+    <main class="demo-6">
       <div class="frame">
         <div class="frame__title-wrap">
           <h1 class="frame__title">Jesus Loves 🇯🇵 </h1>
