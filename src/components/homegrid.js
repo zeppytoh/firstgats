@@ -9,7 +9,7 @@ export default function Homegrid() {
                 <img class="grid__item-img" src="img/18.jpg" alt="Some image" />
                 <img class="grid__item-img grid__item-img--large" src="img/18_large.jpg" />
                 <figcaption class="grid__item-caption">
-                    <h2 class="grid__item-title">創造主が…</h2>
+                    <h2 class="grid__item-title">初めに創造主が…</h2>
                     <p class="grid__item-text">
                     In the beginning, God…
                     </p>

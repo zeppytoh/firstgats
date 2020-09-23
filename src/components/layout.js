@@ -13,13 +13,12 @@ export default function Layout({ children }) {
           </div>
         </div>
         <div class="frame__demos">
-          <span class="frame__demos-title">Read:</span>
-          <a href="/" class="frame__demo frame__demo--current">01</a>
-          <a href="index2.html" class="frame__demo">02</a>
-          <a href="index3.html" class="frame__demo">03</a>
-          <a href="index4.html" class="frame__demo">04</a>
-          <a href="index5.html" class="frame__demo">05</a>
-          <a href="index6.html" class="frame__demo">06</a>
+          <a href="/" class="frame__demo frame__demo--current">創造主</a>
+          <a href="index2.html" class="frame__demo">敵</a>
+          <a href="index3.html" class="frame__demo">救済</a>
+          <a href="index4.html" class="frame__demo">聖書</a>
+          <a href="index5.html" class="frame__demo">キリスト</a>
+          <a href="index6.html" class="frame__demo">祈り</a>
         </div>
       </div>
       <div class="deco">
