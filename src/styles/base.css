@@ -176,7 +176,7 @@ a:hover, a:focus {
 	position: relative;
 	max-width: 1200px;
 	display: grid;
-	grid-template-columns: 63% 37%;
+	grid-template-columns: 31% 36% 33%;
 	width: 100%;
 	margin: 10vh auto 0;
 	padding: 0;
@@ -187,10 +187,24 @@ a:hover, a:focus {
 	padding: 0 1vw;
 }
 .grid__item:first-child {
-	padding-top: 35%;
+	padding-top: 10%;
+	grid-column-start: 1;
+	grid-column-end:   3;
 }
 .grid__item:nth-child(3) {
-	padding-top: 40%;
+	padding-top: 0;
+	grid-column-start: 1;
+	grid-column-end:   4;
+}
+.grid__item:nth-child(4) {
+	padding: 0 2vw;
+}
+.grid__item:nth-child(5) {
+	padding: 0 2vw;
+	padding-top: 30%;
+}
+.grid__item:nth-child(6) {
+	padding: 2vw;
 }
 .grid__item-img {
 	max-width: 100%;
