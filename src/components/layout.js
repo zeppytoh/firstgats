@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     <main class="demo-6">
       <div class="frame">
         <div class="frame__title-wrap">
-          <h1 class="frame__title">Jesus Loves 🇯🇵 </h1>
+          <h1 class="frame__title">JesusLoves.Jp</h1>
           <div class="frame__links">
             <a href="https://tympanus.net/Development/AnimatedImageColumns/">About Us</a>
 
